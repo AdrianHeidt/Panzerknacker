@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="-4dp"
         android:background="@drawable/geil"
         android:textColor="#F0F0F3"
         android:textSize="36sp"
@@ -41,4 +41,24 @@
         android:textColor="#F8F8F2"
         android:textColorHint="#00F70A0A"
         android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="264dp"
+        android:text="Härteanträge" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="339dp"
+        android:text="VBD Prüfungsanmeldung" />
 </RelativeLayout>

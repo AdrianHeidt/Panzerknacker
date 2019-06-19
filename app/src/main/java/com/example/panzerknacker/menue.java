@@ -18,6 +18,7 @@ public class menue extends AppCompatActivity {
         Button button2=(Button) findViewById(R.id.button2);
         Button button3=(Button) findViewById(R.id.button3);
         Button button4=(Button) findViewById(R.id.button4);
+        Button button11=(Button) findViewById(R.id.button11);
 
 
 
@@ -52,5 +53,15 @@ public class menue extends AppCompatActivity {
                 startActivity(intent4);
             }
         });
+
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent5= new Intent(menue. this,MainActivity.class);
+                startActivity(intent5);
+            }
+        });
+
+
     }
 }
